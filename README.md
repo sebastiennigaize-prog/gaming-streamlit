@@ -1,24 +1,28 @@
 # 🎮 Gaming Explorer
 
-Application Streamlit permettant d'explorer quelques jeux vidéo célèbres.
+Application Streamlit permettant d'explorer quelques jeux vidéo célèbres selon leur genre et leur plateforme.
 
-## Fonctionnalités
+## 📸 Aperçu de l'application
 
-- Filtrer les jeux par genre
-- Filtrer les jeux par plateforme
-- Afficher les informations d'un jeu
-- Afficher la jaquette du jeu
-- Visualiser la moyenne des notes par genre
+![Capture Gaming Explorer](screenshot.png)
 
-## Technologies utilisées
+## 🚀 Fonctionnalités
+
+- Sélection d'un genre de jeu
+- Filtrage par plateforme
+- Affichage des informations d'un jeu :
+  - nom
+  - genre
+  - plateforme
+  - note
+  - image
+- Tableau récapitulatif des jeux disponibles
+- Graphique des notes moyennes par genre
+
+## 🛠️ Technologies utilisées
 
 - Python
 - Streamlit
 - Pandas
 
-## Lancement
-
-Installer les dépendances :
-
-```bash
-uv sync
+## 📂 Structure du projet
