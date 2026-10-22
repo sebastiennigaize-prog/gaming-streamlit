@@ -59,7 +59,7 @@ jeux = pd.DataFrame({
     "Image": [
         "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
         "https://upload.wikimedia.org/wikinews/en/7/7a/Minecraft_game_cover.jpeg",
-        "https://www.micromania.fr/dw/image/v2/BCRB_PRD/on/demandware.static/-/Sites-masterCatalog_Micromania/default/dwe41e9b48/images/packshots/ea-fc-25/FC25ps52DPFTfront_fr_nl_RGB.jpg",
+        "images/fc25.jpg",
         "https://static.wikia.nocookie.net/sidmeierscivilization/images/c/c2/Civilization_VI_jaquette.webp/revision/latest?cb=20240507095942&path-prefix=fr",
         "https://www.gamecash.fr/thumbnail-400-450/the-legend-of-zelda-breath-of-the-wild-us-e142417.jpg",
         "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg"
