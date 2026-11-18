@@ -294,10 +294,7 @@ masque_ff4_snes = (
     & (df["Year"] == 1991)
 )
 
-df.loc[
-    masque_ff4_snes,
-    "Game_Title_Clean"
-] = "Final Fantasy IV (SNES 1991)"
+df.loc[masque_ff4_snes, "Game_Title_Clean"] = 'Final Fantasy IV (SNES 1991)'
 
 # Réédition PlayStation de 1997.
 masque_ff4_ps = (
@@ -306,10 +303,7 @@ masque_ff4_ps = (
     & (df["Year"] == 1997)
 )
 
-df.loc[
-    masque_ff4_ps,
-    "Game_Title_Clean"
-] = "Final Fantasy IV (PS 1997)"
+df.loc[masque_ff4_ps, "Game_Title_Clean"] = 'Final Fantasy IV (PS 1997)'
 
 
 
@@ -344,10 +338,7 @@ masque_ff6 = (
 )
 
 # Donner le même nom de regroupement aux trois versions
-df.loc[
-    masque_ff6,
-    "Game_Title_Clean"
-] = "Final Fantasy VI (1994)"
+df.loc[masque_ff6, "Game_Title_Clean"] = 'Final Fantasy VI (1994)'
 
 # ============================================================
 # 7 SEXIES. REGROUPEMENT TEENAGE MUTANT NINJA TURTLES
@@ -389,10 +380,7 @@ masque_re_remake = df["Name"].isin([
     "Resident Evil Archives: Resident Evil"
 ])
 
-df.loc[
-    masque_re_remake,
-    "Game_Title_Clean"
-] = "Resident Evil (Remake 2002)"
+df.loc[masque_re_remake, "Game_Title_Clean"] = 'Resident Evil (Remake 2002)'
 
 # ============================================================
 # 7 OCTIES. REGROUPEMENT RESIDENT EVIL 2
@@ -404,10 +392,7 @@ masque_re2 = df["Name"].isin([
     "Resident Evil 2: Dual Shock Edition"
 ])
 
-df.loc[
-    masque_re2,
-    "Game_Title_Clean"
-] = "Resident Evil 2 (1998)"
+df.loc[masque_re2, "Game_Title_Clean"] = 'Resident Evil 2 (1998)'
 
 # ============================================================
 # 7 NONIES. SÉPARATION DES DEUX JEUX FROGGER
@@ -487,10 +472,7 @@ masque_mario_world_snes = (
     & (df["Year"] == 1990)
 )
 
-df.loc[
-    masque_mario_world_snes,
-    "Game_Title_Clean"
-] = "Super Mario World (1990)"
+df.loc[masque_mario_world_snes, "Game_Title_Clean"] = 'Super Mario World (1990)'
 
 
 # Réédition améliorée sur Game Boy Advance (2001)
@@ -500,10 +482,7 @@ masque_mario_world_gba = (
     & (df["Year"] == 2001)
 )
 
-df.loc[
-    masque_mario_world_gba,
-    "Game_Title_Clean"
-] = "Super Mario Advance 2: Super Mario World (2001)"
+df.loc[masque_mario_world_gba, "Game_Title_Clean"] = 'Super Mario Advance 2: Super Mario World (2001)'
 
 # ============================================================
 # 7 TREDECIES. SÉPARATION SUPER MARIO BROS. 3
@@ -516,10 +495,7 @@ masque_mario_3_nes = (
     & (df["Year"] == 1988)
 )
 
-df.loc[
-    masque_mario_3_nes,
-    "Game_Title_Clean"
-] = "Super Mario Bros. 3 (1988)"
+df.loc[masque_mario_3_nes, "Game_Title_Clean"] = 'Super Mario Bros. 3 (1988)'
 
 
 # Réédition améliorée GBA (2003)
@@ -529,10 +505,7 @@ masque_mario_advance_4 = (
     & (df["Year"] == 2003)
 )
 
-df.loc[
-    masque_mario_advance_4,
-    "Game_Title_Clean"
-] = "Super Mario Advance 4: Super Mario Bros. 3 (2003)"
+df.loc[masque_mario_advance_4, "Game_Title_Clean"] = 'Super Mario Advance 4: Super Mario Bros. 3 (2003)'
 
 # ============================================================
 # 7 QUATERDECIES. SÉPARATION SUPER MARIO 64
@@ -545,10 +518,7 @@ masque_mario_64_n64 = (
     & (df["Year"] == 1996)
 )
 
-df.loc[
-    masque_mario_64_n64,
-    "Game_Title_Clean"
-] = "Super Mario 64 (1996)"
+df.loc[masque_mario_64_n64, "Game_Title_Clean"] = 'Super Mario 64 (1996)'
 
 
 # Remake enrichi Nintendo DS (2004)
@@ -558,10 +528,7 @@ masque_mario_64_ds = (
     & (df["Year"] == 2004)
 )
 
-df.loc[
-    masque_mario_64_ds,
-    "Game_Title_Clean"
-] = "Super Mario 64 DS (2004)"
+df.loc[masque_mario_64_ds, "Game_Title_Clean"] = 'Super Mario 64 DS (2004)'
 
 # ============================================================
 # 7 QUINDECIES. SÉPARATION DONKEY KONG COUNTRY
@@ -574,10 +541,7 @@ masque_dkc_snes = (
     & (df["Year"] == 1994)
 )
 
-df.loc[
-    masque_dkc_snes,
-    "Game_Title_Clean"
-] = "Donkey Kong Country (1994 - SNES)"
+df.loc[masque_dkc_snes, "Game_Title_Clean"] = 'Donkey Kong Country (1994 - SNES)'
 
 
 # Adaptation Game Boy Color (2000)
@@ -588,10 +552,7 @@ masque_dkc_gbc = (
     & (df["Year"] == 2000)
 )
 
-df.loc[
-    masque_dkc_gbc,
-    "Game_Title_Clean"
-] = "Donkey Kong Country (2000 - GBC)"
+df.loc[masque_dkc_gbc, "Game_Title_Clean"] = 'Donkey Kong Country (2000 - GBC)'
 
 
 # Réédition Game Boy Advance (2003)
@@ -601,10 +562,7 @@ masque_dkc_gba = (
     & (df["Year"] == 2003)
 )
 
-df.loc[
-    masque_dkc_gba,
-    "Game_Title_Clean"
-] = "Donkey Kong Country (2003 - GBA)"
+df.loc[masque_dkc_gba, "Game_Title_Clean"] = 'Donkey Kong Country (2003 - GBA)'
 
 # ============================================================
 # 7 SEXDECIES. SÉPARATION ZELDA OCARINA OF TIME
@@ -617,10 +575,7 @@ masque_zelda_ocarina_n64 = (
     & (df["Year"] == 1998)
 )
 
-df.loc[
-    masque_zelda_ocarina_n64,
-    "Game_Title_Clean"
-] = "The Legend of Zelda: Ocarina of Time (1998)"
+df.loc[masque_zelda_ocarina_n64, "Game_Title_Clean"] = 'The Legend of Zelda: Ocarina of Time (1998)'
 
 
 # Remake Nintendo 3DS (2011)
@@ -630,10 +585,7 @@ masque_zelda_ocarina_3ds = (
     & (df["Year"] == 2011)
 )
 
-df.loc[
-    masque_zelda_ocarina_3ds,
-    "Game_Title_Clean"
-] = "The Legend of Zelda: Ocarina of Time 3D (2011)"
+df.loc[masque_zelda_ocarina_3ds, "Game_Title_Clean"] = 'The Legend of Zelda: Ocarina of Time 3D (2011)'
 
 # ============================================================
 # 7 SEPTDECIES. SÉPARATION KINGDOM HEARTS
@@ -646,10 +598,7 @@ masque_kh_ps2 = (
     & (df["Year"] == 2002)
 )
 
-df.loc[
-    masque_kh_ps2,
-    "Game_Title_Clean"
-] = "Kingdom Hearts (2002)"
+df.loc[masque_kh_ps2, "Game_Title_Clean"] = 'Kingdom Hearts (2002)'
 
 
 # Compilation HD sur PlayStation 3 (2013)
@@ -659,10 +608,7 @@ masque_kh_hd = (
     & (df["Year"] == 2013)
 )
 
-df.loc[
-    masque_kh_hd,
-    "Game_Title_Clean"
-] = "Kingdom Hearts HD 1.5 ReMIX (2013)"
+df.loc[masque_kh_hd, "Game_Title_Clean"] = 'Kingdom Hearts HD 1.5 ReMIX (2013)'
 
 # ============================================================
 # 7 DUODEVICIES. SÉPARATION ZELDA A LINK TO THE PAST
@@ -675,10 +621,7 @@ masque_zelda_link_snes = (
     & (df["Year"] == 1991)
 )
 
-df.loc[
-    masque_zelda_link_snes,
-    "Game_Title_Clean"
-] = "The Legend of Zelda: A Link to the Past (1991)"
+df.loc[masque_zelda_link_snes, "Game_Title_Clean"] = 'The Legend of Zelda: A Link to the Past (1991)'
 
 
 # Réédition Game Boy Advance (2002)
@@ -689,10 +632,7 @@ masque_zelda_link_gba = (
     & (df["Year"] == 2002)
 )
 
-df.loc[
-    masque_zelda_link_gba,
-    "Game_Title_Clean"
-] = "The Legend of Zelda: A Link to the Past & Four Swords (2002)"
+df.loc[masque_zelda_link_gba, "Game_Title_Clean"] = 'The Legend of Zelda: A Link to the Past & Four Swords (2002)'
 
 # ============================================================
 # 7 UNDEVICIES. SÉPARATION YOSHI'S ISLAND
@@ -705,10 +645,7 @@ masque_yoshi_snes = (
     & (df["Year"] == 1995)
 )
 
-df.loc[
-    masque_yoshi_snes,
-    "Game_Title_Clean"
-] = "Super Mario World 2: Yoshi's Island (1995)"
+df.loc[masque_yoshi_snes, "Game_Title_Clean"] = "Super Mario World 2: Yoshi's Island (1995)"
 
 
 # Réédition Game Boy Advance (2002)
@@ -719,10 +656,7 @@ masque_yoshi_gba = (
     & (df["Year"] == 2002)
 )
 
-df.loc[
-    masque_yoshi_gba,
-    "Game_Title_Clean"
-] = "Yoshi's Island: Super Mario Advance 3 (2002)"
+df.loc[masque_yoshi_gba, "Game_Title_Clean"] = "Yoshi's Island: Super Mario Advance 3 (2002)"
 
 # ============================================================
 # 7 VICES. SÉPARATION RESIDENT EVIL 2
@@ -737,10 +671,7 @@ masque_re2_original = (
     & (df["Platform"].isin(["PS", "N64", "GC"]))
 )
 
-df.loc[
-    masque_re2_original,
-    "Game_Title_Clean"
-] = "Resident Evil 2 (1998)"
+df.loc[masque_re2_original, "Game_Title_Clean"] = 'Resident Evil 2 (1998)'
 
 
 # Édition spécifique PlayStation : Dual Shock Edition
@@ -752,10 +683,7 @@ masque_re2_dual_shock = (
     & (df["Year"] == 1998)
 )
 
-df.loc[
-    masque_re2_dual_shock,
-    "Game_Title_Clean"
-] = "Resident Evil 2: Dual Shock Edition (1998)"
+df.loc[masque_re2_dual_shock, "Game_Title_Clean"] = 'Resident Evil 2: Dual Shock Edition (1998)'
 
 # ============================================================
 # 7 UNVICES. SÉPARATION ZELDA THE WIND WAKER
@@ -768,10 +696,7 @@ masque_zelda_wind_gc = (
     & (df["Year"] == 2002)
 )
 
-df.loc[
-    masque_zelda_wind_gc,
-    "Game_Title_Clean"
-] = "The Legend of Zelda: The Wind Waker (2002)"
+df.loc[masque_zelda_wind_gc, "Game_Title_Clean"] = 'The Legend of Zelda: The Wind Waker (2002)'
 
 
 # Remaster HD sur Wii U (2013)
@@ -781,10 +706,7 @@ masque_zelda_wind_wiiu = (
     & (df["Year"] == 2013)
 )
 
-df.loc[
-    masque_zelda_wind_wiiu,
-    "Game_Title_Clean"
-] = "The Legend of Zelda: The Wind Waker HD (2013)"
+df.loc[masque_zelda_wind_wiiu, "Game_Title_Clean"] = 'The Legend of Zelda: The Wind Waker HD (2013)'
 
 # ============================================================
 # 7 DUOVICES. SÉPARATION GOLF
@@ -797,10 +719,7 @@ masque_golf_nes = (
     & (df["Year"] == 1984)
 )
 
-df.loc[
-    masque_golf_nes,
-    "Game_Title_Clean"
-] = "Golf (NES - 1984)"
+df.loc[masque_golf_nes, "Game_Title_Clean"] = 'Golf (NES - 1984)'
 
 
 # Version Game Boy (1989)
@@ -811,10 +730,7 @@ masque_golf_gb = (
     & (df["Year"] == 1989)
 )
 
-df.loc[
-    masque_golf_gb,
-    "Game_Title_Clean"
-] = "Golf (GB - 1989)"
+df.loc[masque_golf_gb, "Game_Title_Clean"] = 'Golf (GB - 1989)'
 
 # ============================================================
 # 7 TERVICES. SÉPARATION DRAGON QUEST VIII
@@ -827,10 +743,7 @@ masque_dq8_ps2 = (
     & (df["Year"] == 2004)
 )
 
-df.loc[
-    masque_dq8_ps2,
-    "Game_Title_Clean"
-] = "Dragon Quest VIII: Journey of the Cursed King (2004)"
+df.loc[masque_dq8_ps2, "Game_Title_Clean"] = 'Dragon Quest VIII: Journey of the Cursed King (2004)'
 
 
 # Réédition enrichie Nintendo 3DS (2015)
@@ -841,10 +754,7 @@ masque_dq8_3ds = (
     & (df["Year"] == 2015)
 )
 
-df.loc[
-    masque_dq8_3ds,
-    "Game_Title_Clean"
-] = "Dragon Quest VIII: Journey of the Cursed King (3DS - 2015)"
+df.loc[masque_dq8_3ds, "Game_Title_Clean"] = 'Dragon Quest VIII: Journey of the Cursed King (3DS - 2015)'
 
 # ============================================================
 # 7 QUATERVICES. SÉPARATION DRAGON QUEST VII
@@ -857,10 +767,7 @@ masque_dq7_ps = (
     & (df["Year"] == 2000)
 )
 
-df.loc[
-    masque_dq7_ps,
-    "Game_Title_Clean"
-] = "Dragon Quest VII: Warriors of Eden (2000)"
+df.loc[masque_dq7_ps, "Game_Title_Clean"] = 'Dragon Quest VII: Warriors of Eden (2000)'
 
 
 # Remake Nintendo 3DS (2013)
@@ -871,10 +778,7 @@ masque_dq7_3ds = (
     & (df["Year"] == 2013)
 )
 
-df.loc[
-    masque_dq7_3ds,
-    "Game_Title_Clean"
-] = "Dragon Quest VII: Fragments of the Forgotten Past (3DS - 2013)"
+df.loc[masque_dq7_3ds, "Game_Title_Clean"] = 'Dragon Quest VII: Fragments of the Forgotten Past (3DS - 2013)'
 
 # ============================================================
 # 7 QUINVICES. SÉPARATION KINGDOM HEARTS II
@@ -887,10 +791,7 @@ masque_kh2_ps2 = (
     & (df["Year"] == 2005)
 )
 
-df.loc[
-    masque_kh2_ps2,
-    "Game_Title_Clean"
-] = "Kingdom Hearts II (2005)"
+df.loc[masque_kh2_ps2, "Game_Title_Clean"] = 'Kingdom Hearts II (2005)'
 
 
 # Compilation HD sur PlayStation 3 (2014)
@@ -901,10 +802,7 @@ masque_kh2_hd = (
     & (df["Year"] == 2014)
 )
 
-df.loc[
-    masque_kh2_hd,
-    "Game_Title_Clean"
-] = "Kingdom Hearts HD 2.5 ReMIX (2014)"
+df.loc[masque_kh2_hd, "Game_Title_Clean"] = 'Kingdom Hearts HD 2.5 ReMIX (2014)'
 
 # ============================================================
 # 7 SEXVICES. SÉPARATION GOD OF WAR III
@@ -917,10 +815,7 @@ masque_gow3_ps3 = (
     & (df["Year"] == 2010)
 )
 
-df.loc[
-    masque_gow3_ps3,
-    "Game_Title_Clean"
-] = "God of War III (2010)"
+df.loc[masque_gow3_ps3, "Game_Title_Clean"] = 'God of War III (2010)'
 
 
 # Version remasterisée PlayStation 4 (2015)
@@ -931,10 +826,7 @@ masque_gow3_ps4 = (
     & (df["Year"] == 2015)
 )
 
-df.loc[
-    masque_gow3_ps4,
-    "Game_Title_Clean"
-] = "God of War III Remastered (2015)"
+df.loc[masque_gow3_ps4, "Game_Title_Clean"] = 'God of War III Remastered (2015)'
 
 # ============================================================
 # 7 SEPTVICES. SÉPARATION ASTEROIDS
@@ -948,10 +840,7 @@ masque_asteroids_2600 = (
     & (df["Year"] == 1980)
 )
 
-df.loc[
-    masque_asteroids_2600,
-    "Game_Title_Clean"
-] = "Asteroids (Atari 2600 - 1980)"
+df.loc[masque_asteroids_2600, "Game_Title_Clean"] = 'Asteroids (Atari 2600 - 1980)'
 
 
 # Nouvelle version PlayStation (1998)
@@ -962,13 +851,10 @@ masque_asteroids_ps = (
     & (df["Year"] == 1998)
 )
 
-df.loc[
-    masque_asteroids_ps,
-    "Game_Title_Clean"
-] = "Asteroids (PlayStation - 1998)"
+df.loc[masque_asteroids_ps, "Game_Title_Clean"] = 'Asteroids (PlayStation - 1998)'
 
 # ============================================================
-# 7.X - CORRECTION NBA JAM : ÉDITIONS 1992, 2003 ET 2010
+# 7.X.01 - CORRECTION NBA JAM : ÉDITIONS 1992, 2003 ET 2010
 # ============================================================
 
 # NBA Jam original : Genesis et Super Nintendo
@@ -981,10 +867,7 @@ masque_nba_2003 = (
     & (df["Year"] == 2003)
 )
 
-df.loc[
-    masque_nba_2003,
-    "Game_Title_Clean"
-] = "NBA Jam (2003)"
+df.loc[masque_nba_2003, "Game_Title_Clean"] = 'NBA Jam (2003)'
 
 # NBA Jam 2010 : nouvelle version éditée par Electronic Arts
 masque_nba_2010 = (
@@ -993,13 +876,10 @@ masque_nba_2010 = (
     & (df["Year"] == 2010)
 )
 
-df.loc[
-    masque_nba_2010,
-    "Game_Title_Clean"
-] = "NBA Jam (2010)"
+df.loc[masque_nba_2010, "Game_Title_Clean"] = 'NBA Jam (2010)'
 
 # ============================================================
-# 7.X - FINAL FANTASY III : ORIGINAL ET REMAKE 3D
+# 7.X.02 - FINAL FANTASY III : ORIGINAL ET REMAKE 3D
 # ============================================================
 
 # Version originale sortie sur NES en 1990
@@ -1009,10 +889,7 @@ masque_ff3_original = (
     & (df["Year"] == 1990)
 )
 
-df.loc[
-    masque_ff3_original,
-    "Game_Title_Clean"
-] = "Final Fantasy III (1990)"
+df.loc[masque_ff3_original, "Game_Title_Clean"] = 'Final Fantasy III (1990)'
 
 # Remake 3D sorti sur Nintendo DS en 2006
 # et adapté sur PSP en 2012
@@ -1022,16 +899,13 @@ masque_ff3_remake = (
     & (df["Year"].isin([2006, 2012]))
 )
 
-df.loc[
-    masque_ff3_remake,
-    "Game_Title_Clean"
-] = "Final Fantasy III (Remake 3D)"
+df.loc[masque_ff3_remake, "Game_Title_Clean"] = 'Final Fantasy III (Remake 3D)'
 
 # La version SNES de 1994 reste associée
 # à Final Fantasy VI (1994).
 
 # ============================================================
-# 7.X - FINAL FANTASY VI : ORIGINAL ET VERSION ADVANCE
+# 7.X.03 - FINAL FANTASY VI : ORIGINAL ET VERSION ADVANCE
 # ============================================================
 
 # Version originale de Final Fantasy VI :
@@ -1047,13 +921,10 @@ masque_ff6_advance = (
     & (df["Year"] == 2006)
 )
 
-df.loc[
-    masque_ff6_advance,
-    "Game_Title_Clean"
-] = "Final Fantasy VI Advance (2006)"
+df.loc[masque_ff6_advance, "Game_Title_Clean"] = 'Final Fantasy VI Advance (2006)'
 
 # ============================================================
-# 7.X - BASEBALL : NES 1983 ET GAME BOY 1989
+# 7.X.04 - BASEBALL : NES 1983 ET GAME BOY 1989
 # ============================================================
 
 # Baseball sur NES : version originale de 1983
@@ -1063,10 +934,7 @@ masque_baseball_nes = (
     & (df["Year"] == 1983)
 )
 
-df.loc[
-    masque_baseball_nes,
-    "Game_Title_Clean"
-] = "Baseball (NES - 1983)"
+df.loc[masque_baseball_nes, "Game_Title_Clean"] = 'Baseball (NES - 1983)'
 
 # Baseball sur Game Boy : adaptation de 1989
 masque_baseball_gb = (
@@ -1075,13 +943,10 @@ masque_baseball_gb = (
     & (df["Year"] == 1989)
 )
 
-df.loc[
-    masque_baseball_gb,
-    "Game_Title_Clean"
-] = "Baseball (Game Boy - 1989)"
+df.loc[masque_baseball_gb, "Game_Title_Clean"] = 'Baseball (Game Boy - 1989)'
 
 # ============================================================
-# 7.X - DRAGON WARRIOR III : ORIGINAL ET REMAKE GBC
+# 7.X.05 - DRAGON WARRIOR III : ORIGINAL ET REMAKE GBC
 # ============================================================
 
 # Version originale sortie sur Famicom / NES en 1988
@@ -1091,10 +956,7 @@ masque_dw3_nes = (
     & (df["Year"] == 1988)
 )
 
-df.loc[
-    masque_dw3_nes,
-    "Game_Title_Clean"
-] = "Dragon Warrior III (1988)"
+df.loc[masque_dw3_nes, "Game_Title_Clean"] = 'Dragon Warrior III (1988)'
 
 # Version Game Boy Color sortie au Japon en 2000
 # Adaptation enrichie du jeu original
@@ -1104,13 +966,10 @@ masque_dw3_gbc = (
     & (df["Year"] == 2000)
 )
 
-df.loc[
-    masque_dw3_gbc,
-    "Game_Title_Clean"
-] = "Dragon Warrior III (GBC Remake - 2000)"
+df.loc[masque_dw3_gbc, "Game_Title_Clean"] = 'Dragon Warrior III (GBC Remake - 2000)'
 
 # ============================================================
-# 7.X - SPIDER-MAN : ATARI 2600 ET VERSION 2000
+# 7.X.06 - SPIDER-MAN : ATARI 2600 ET VERSION 2000
 # ============================================================
 
 # Spider-Man sur Atari 2600 :
@@ -1122,10 +981,7 @@ masque_spiderman_2600 = (
     & (df["Year"] == 1981)
 )
 
-df.loc[
-    masque_spiderman_2600,
-    "Game_Title_Clean"
-] = "Spider-Man (Atari 2600)"
+df.loc[masque_spiderman_2600, "Game_Title_Clean"] = 'Spider-Man (Atari 2600)'
 
 # Spider-Man de 2000 :
 # versions PlayStation et Nintendo 64 du même jeu.
@@ -1135,13 +991,10 @@ masque_spiderman_2000 = (
     & (df["Year"] == 2000)
 )
 
-df.loc[
-    masque_spiderman_2000,
-    "Game_Title_Clean"
-] = "Spider-Man (2000)"
+df.loc[masque_spiderman_2000, "Game_Title_Clean"] = 'Spider-Man (2000)'
 
 # ============================================================
-# 7.X - DRAGON QUEST V : ORIGINAL SNES ET REMAKE PS2
+# 7.X.07 - DRAGON QUEST V : ORIGINAL SNES ET REMAKE PS2
 # ============================================================
 
 # Dragon Quest V original, sorti sur Super Famicom en 1992
@@ -1151,10 +1004,7 @@ masque_dq5_snes = (
     & (df["Year"] == 1992)
 )
 
-df.loc[
-    masque_dq5_snes,
-    "Game_Title_Clean"
-] = "Dragon Quest V (SNES - 1992)"
+df.loc[masque_dq5_snes, "Game_Title_Clean"] = 'Dragon Quest V (SNES - 1992)'
 
 # Dragon Quest V : remake 3D sorti sur PlayStation 2 en 2004
 masque_dq5_ps2 = (
@@ -1163,17 +1013,14 @@ masque_dq5_ps2 = (
     & (df["Year"] == 2004)
 )
 
-df.loc[
-    masque_dq5_ps2,
-    "Game_Title_Clean"
-] = "Dragon Quest V (PS2 Remake - 2004)"
+df.loc[masque_dq5_ps2, "Game_Title_Clean"] = 'Dragon Quest V (PS2 Remake - 2004)'
 
 # La version Nintendo DS de 2008 possède déjà
 # un titre distinct : Dragon Quest V: Hand of the Heavenly Bride.
 # Aucune modification nécessaire.
 
 # ============================================================
-# 7.X - SIMCITY 2000 : VERSIONS CLASSIQUES ET GBA
+# 7.X.08 - SIMCITY 2000 : VERSIONS CLASSIQUES ET GBA
 # ============================================================
 
 # Versions PC, Saturn, SNES et PlayStation :
@@ -1188,13 +1035,10 @@ masque_simcity_gba = (
     & (df["Year"] == 2003)
 )
 
-df.loc[
-    masque_simcity_gba,
-    "Game_Title_Clean"
-] = "SimCity 2000 (GBA - 2003)"
+df.loc[masque_simcity_gba, "Game_Title_Clean"] = 'SimCity 2000 (GBA - 2003)'
 
 # ============================================================
-# 7.X - TENNIS : NES 1984 ET GAME BOY 1989
+# 7.X.09 - TENNIS : NES 1984 ET GAME BOY 1989
 # ============================================================
 
 # Version originale sur NES en 1984
@@ -1204,10 +1048,7 @@ masque_tennis_nes = (
     & (df["Year"] == 1984)
 )
 
-df.loc[
-    masque_tennis_nes,
-    "Game_Title_Clean"
-] = "Tennis (NES - 1984)"
+df.loc[masque_tennis_nes, "Game_Title_Clean"] = 'Tennis (NES - 1984)'
 
 # Adaptation Game Boy sortie en 1989
 masque_tennis_gb = (
@@ -1216,13 +1057,10 @@ masque_tennis_gb = (
     & (df["Year"] == 1989)
 )
 
-df.loc[
-    masque_tennis_gb,
-    "Game_Title_Clean"
-] = "Tennis (Game Boy - 1989)"
+df.loc[masque_tennis_gb, "Game_Title_Clean"] = 'Tennis (Game Boy - 1989)'
 
 # ============================================================
-# 7.X - GHOST RECON : JEU ORIGINAL ET VERSION WII 2010
+# 7.X.10 - GHOST RECON : JEU ORIGINAL ET VERSION WII 2010
 # ============================================================
 
 # Les versions PS2, Xbox et GameCube de 2002-2003
@@ -1236,13 +1074,10 @@ masque_ghost_recon_wii = (
     & (df["Year"] == 2010)
 )
 
-df.loc[
-    masque_ghost_recon_wii,
-    "Game_Title_Clean"
-] = "Tom Clancy's Ghost Recon (Wii - 2010)"
+df.loc[masque_ghost_recon_wii, "Game_Title_Clean"] = "Tom Clancy's Ghost Recon (Wii - 2010)"
 
 # ============================================================
-# 7.X - WHEEL OF FORTUNE : DIFFERENTES EDITIONS
+# 7.X.11 - WHEEL OF FORTUNE : DIFFERENTES EDITIONS
 # ============================================================
 
 # Editions N64 1997 et PlayStation 1998
@@ -1255,10 +1090,7 @@ masque_wheel_1997 = (
     )
 )
 
-df.loc[
-    masque_wheel_1997,
-    "Game_Title_Clean"
-] = "Wheel of Fortune (1997-1998)"
+df.loc[masque_wheel_1997, "Game_Title_Clean"] = 'Wheel of Fortune (1997-1998)'
 
 # Edition PlayStation 2 sortie en 2003
 masque_wheel_2003 = (
@@ -1267,10 +1099,7 @@ masque_wheel_2003 = (
     & (df["Year"] == 2003)
 )
 
-df.loc[
-    masque_wheel_2003,
-    "Game_Title_Clean"
-] = "Wheel of Fortune (2003)"
+df.loc[masque_wheel_2003, "Game_Title_Clean"] = 'Wheel of Fortune (2003)'
 
 # Editions Nintendo DS et Wii sorties en 2010
 masque_wheel_2010 = (
@@ -1279,15 +1108,12 @@ masque_wheel_2010 = (
     & (df["Year"] == 2010)
 )
 
-df.loc[
-    masque_wheel_2010,
-    "Game_Title_Clean"
-] = "Wheel of Fortune (2010)"
+df.loc[masque_wheel_2010, "Game_Title_Clean"] = 'Wheel of Fortune (2010)'
 
 # Wheel of Fortune: 2nd Edition conserve son nom distinct.
 
 # ============================================================
-# 7.X - CHRONO TRIGGER : SNES 1995 ET DS 2008
+# 7.X.12 - CHRONO TRIGGER : SNES 1995 ET DS 2008
 # ============================================================
 
 # Version originale sortie sur Super Nintendo en 1995
@@ -1297,10 +1123,7 @@ masque_chrono_snes = (
     & (df["Year"] == 1995)
 )
 
-df.loc[
-    masque_chrono_snes,
-    "Game_Title_Clean"
-] = "Chrono Trigger (SNES - 1995)"
+df.loc[masque_chrono_snes, "Game_Title_Clean"] = 'Chrono Trigger (SNES - 1995)'
 
 
 # Réédition enrichie sortie sur Nintendo DS en 2008
@@ -1310,12 +1133,9 @@ masque_chrono_ds = (
     & (df["Year"] == 2008)
 )
 
-df.loc[
-    masque_chrono_ds,
-    "Game_Title_Clean"
-] = "Chrono Trigger (DS - 2008)"
+df.loc[masque_chrono_ds, "Game_Title_Clean"] = 'Chrono Trigger (DS - 2008)'
 # ============================================================
-# 7.X - BANJO-KAZOOIE : N64 1998 ET XBOX 360 2008
+# 7.X.13 - BANJO-KAZOOIE : N64 1998 ET XBOX 360 2008
 # ============================================================
 
 # Jeu original Nintendo 64 sorti en 1998
@@ -1325,10 +1145,7 @@ masque_banjo_n64 = (
     & (df["Year"] == 1998)
 )
 
-df.loc[
-    masque_banjo_n64,
-    "Game_Title_Clean"
-] = "Banjo-Kazooie (N64 - 1998)"
+df.loc[masque_banjo_n64, "Game_Title_Clean"] = 'Banjo-Kazooie (N64 - 1998)'
 
 
 # Réédition numérique améliorée sur Xbox 360 en 2008
@@ -1338,13 +1155,10 @@ masque_banjo_x360 = (
     & (df["Year"] == 2008)
 )
 
-df.loc[
-    masque_banjo_x360,
-    "Game_Title_Clean"
-] = "Banjo-Kazooie (Xbox 360 - 2008)"
+df.loc[masque_banjo_x360, "Game_Title_Clean"] = 'Banjo-Kazooie (Xbox 360 - 2008)'
 
 # ============================================================
-# 7.X - DOOM II : PC 1994 ET GAME BOY ADVANCE 2002
+# 7.X.14 - DOOM II : PC 1994 ET GAME BOY ADVANCE 2002
 # ============================================================
 
 # Version originale PC sortie en 1994
@@ -1354,10 +1168,7 @@ masque_doom_ii_pc = (
     & (df["Year"] == 1994)
 )
 
-df.loc[
-    masque_doom_ii_pc,
-    "Game_Title_Clean"
-] = "Doom II: Hell on Earth (PC - 1994)"
+df.loc[masque_doom_ii_pc, "Game_Title_Clean"] = 'Doom II: Hell on Earth (PC - 1994)'
 
 
 # Adaptation Game Boy Advance sortie en 2002
@@ -1367,13 +1178,10 @@ masque_doom_ii_gba = (
     & (df["Year"] == 2002)
 )
 
-df.loc[
-    masque_doom_ii_gba,
-    "Game_Title_Clean"
-] = "Doom II: Hell on Earth (GBA - 2002)"
+df.loc[masque_doom_ii_gba, "Game_Title_Clean"] = 'Doom II: Hell on Earth (GBA - 2002)'
 
 # ============================================================
-# 7.X - MARIO TENNIS : N64 ET GAME BOY COLOR (2000)
+# 7.X.15 - MARIO TENNIS : N64 ET GAME BOY COLOR (2000)
 # ============================================================
 
 # Version Nintendo 64 sortie en 2000
@@ -1383,10 +1191,7 @@ masque_mario_tennis_n64 = (
     & (df["Year"] == 2000)
 )
 
-df.loc[
-    masque_mario_tennis_n64,
-    "Game_Title_Clean"
-] = "Mario Tennis (Nintendo 64 - 2000)"
+df.loc[masque_mario_tennis_n64, "Game_Title_Clean"] = 'Mario Tennis (Nintendo 64 - 2000)'
 
 
 # Version Game Boy Color sortie en 2000
@@ -1397,13 +1202,10 @@ masque_mario_tennis_gbc = (
     & (df["Year"] == 2000)
 )
 
-df.loc[
-    masque_mario_tennis_gbc,
-    "Game_Title_Clean"
-] = "Mario Tennis (Game Boy Color - 2000)"
+df.loc[masque_mario_tennis_gbc, "Game_Title_Clean"] = 'Mario Tennis (Game Boy Color - 2000)'
 
 # ============================================================
-# 7.X - MARIO TENNIS : WII 2010 ET 3DS 2012
+# 7.X.16 - MARIO TENNIS : WII 2010 ET 3DS 2012
 # ============================================================
 
 # Version Wii enregistrée en 2010
@@ -1414,10 +1216,7 @@ masque_mario_tennis_wii = (
     & (df["Year"] == 2010)
 )
 
-df.loc[
-    masque_mario_tennis_wii,
-    "Game_Title_Clean"
-] = "Mario Tennis (Wii - 2010 - à vérifier)"
+df.loc[masque_mario_tennis_wii, "Game_Title_Clean"] = 'Mario Tennis (Wii - 2010 - à vérifier)'
 
 
 # Version 3DS enregistrée en 2012
@@ -1428,13 +1227,10 @@ masque_mario_tennis_3ds = (
     & (df["Year"] == 2012)
 )
 
-df.loc[
-    masque_mario_tennis_3ds,
-    "Game_Title_Clean"
-] = "Mario Tennis (3DS - 2012 - à vérifier)"
+df.loc[masque_mario_tennis_3ds, "Game_Title_Clean"] = 'Mario Tennis (3DS - 2012 - à vérifier)'
 
 # ============================================================
-# 7.X - SSX : JEU ORIGINAL 2000 ET NOUVEL EPISODE 2012
+# 7.X.17 - SSX : JEU ORIGINAL 2000 ET NOUVEL EPISODE 2012
 # ============================================================
 
 # Premier SSX sorti sur PlayStation 2 en 2000
@@ -1444,10 +1240,7 @@ masque_ssx_2000 = (
     & (df["Year"] == 2000)
 )
 
-df.loc[
-    masque_ssx_2000,
-    "Game_Title_Clean"
-] = "SSX (2000)"
+df.loc[masque_ssx_2000, "Game_Title_Clean"] = 'SSX (2000)'
 
 
 # Nouvel épisode SSX sorti en 2012 sur PS3 et Xbox 360
@@ -1457,13 +1250,10 @@ masque_ssx_2012 = (
     & (df["Year"] == 2012)
 )
 
-df.loc[
-    masque_ssx_2012,
-    "Game_Title_Clean"
-] = "SSX (2012)"
+df.loc[masque_ssx_2012, "Game_Title_Clean"] = 'SSX (2012)'
 
 # ============================================================
-# 7.X - SPACE INVADERS : DIFFERENTES EDITIONS
+# 7.X.18 - SPACE INVADERS : DIFFERENTES EDITIONS
 # ============================================================
 
 # Version Atari 2600 sortie en 1980
@@ -1473,10 +1263,7 @@ masque_space_2600 = (
     & (df["Year"] == 1980)
 )
 
-df.loc[
-    masque_space_2600,
-    "Game_Title_Clean"
-] = "Space Invaders (Atari 2600 - 1980)"
+df.loc[masque_space_2600, "Game_Title_Clean"] = 'Space Invaders (Atari 2600 - 1980)'
 
 
 # Version Super Nintendo sortie en 1994
@@ -1486,10 +1273,7 @@ masque_space_snes = (
     & (df["Year"] == 1994)
 )
 
-df.loc[
-    masque_space_snes,
-    "Game_Title_Clean"
-] = "Space Invaders (SNES - 1994)"
+df.loc[masque_space_snes, "Game_Title_Clean"] = 'Space Invaders (SNES - 1994)'
 
 
 # Version Nintendo 64 sortie en 1999
@@ -1499,10 +1283,7 @@ masque_space_n64 = (
     & (df["Year"] == 1999)
 )
 
-df.loc[
-    masque_space_n64,
-    "Game_Title_Clean"
-] = "Space Invaders (N64 - 1999)"
+df.loc[masque_space_n64, "Game_Title_Clean"] = 'Space Invaders (N64 - 1999)'
 
 
 # Version Game Boy Advance sortie en 2002
@@ -1513,13 +1294,10 @@ masque_space_gba = (
     & (df["Year"] == 2002)
 )
 
-df.loc[
-    masque_space_gba,
-    "Game_Title_Clean"
-] = "Space Invaders (GBA - 2002)"
+df.loc[masque_space_gba, "Game_Title_Clean"] = 'Space Invaders (GBA - 2002)'
 
 # ============================================================
-# 7.X - MISSILE COMMAND : ATARI 2600 ET PLAYSTATION
+# 7.X.19 - MISSILE COMMAND : ATARI 2600 ET PLAYSTATION
 # ============================================================
 
 # Version Atari 2600 sortie en 1980
@@ -1529,10 +1307,7 @@ masque_missile_2600 = (
     & (df["Year"] == 1980)
 )
 
-df.loc[
-    masque_missile_2600,
-    "Game_Title_Clean"
-] = "Missile Command (Atari 2600 - 1980)"
+df.loc[masque_missile_2600, "Game_Title_Clean"] = 'Missile Command (Atari 2600 - 1980)'
 
 
 # Réinterprétation PlayStation sortie en 1999
@@ -1542,13 +1317,10 @@ masque_missile_ps = (
     & (df["Year"] == 1999)
 )
 
-df.loc[
-    masque_missile_ps,
-    "Game_Title_Clean"
-] = "Missile Command (PlayStation - 1999)"
+df.loc[masque_missile_ps, "Game_Title_Clean"] = 'Missile Command (PlayStation - 1999)'
 
 # ============================================================
-# 7.X - FABLE : ORIGINAL ET ANNIVERSARY
+# 7.X.20 - FABLE : ORIGINAL ET ANNIVERSARY
 # ============================================================
 
 # Jeu original sorti sur Xbox en 2004
@@ -1558,10 +1330,7 @@ masque_fable_original = (
     & (df["Year"] == 2004)
 )
 
-df.loc[
-    masque_fable_original,
-    "Game_Title_Clean"
-] = "Fable (2004)"
+df.loc[masque_fable_original, "Game_Title_Clean"] = 'Fable (2004)'
 
 
 # Fable Anniversary : remaster sorti sur Xbox 360 en 2014
@@ -1572,13 +1341,10 @@ masque_fable_anniversary = (
     & (df["Year"] == 2014)
 )
 
-df.loc[
-    masque_fable_anniversary,
-    "Game_Title_Clean"
-] = "Fable Anniversary (2014)"
+df.loc[masque_fable_anniversary, "Game_Title_Clean"] = 'Fable Anniversary (2014)'
 
 # ============================================================
-# 7.X - DEVIL MAY CRY : EDITIONS ORIGINALES ET AMELIOREES
+# 7.X.21 - DEVIL MAY CRY : EDITIONS ORIGINALES ET AMELIOREES
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1593,10 +1359,7 @@ masque_dmc4_original = (
     & (df["Year"] == 2008)
 )
 
-df.loc[
-    masque_dmc4_original,
-    "Game_Title_Clean"
-] = "Devil May Cry 4 (2008)"
+df.loc[masque_dmc4_original, "Game_Title_Clean"] = 'Devil May Cry 4 (2008)'
 
 
 # ------------------------------------------------------------
@@ -1610,10 +1373,7 @@ masque_dmc4_special = (
     & (df["Year"] == 2015)
 )
 
-df.loc[
-    masque_dmc4_special,
-    "Game_Title_Clean"
-] = "Devil May Cry 4: Special Edition (2015)"
+df.loc[masque_dmc4_special, "Game_Title_Clean"] = 'Devil May Cry 4: Special Edition (2015)'
 
 
 # ------------------------------------------------------------
@@ -1627,10 +1387,7 @@ masque_dmc_original = (
     & (df["Year"] == 2013)
 )
 
-df.loc[
-    masque_dmc_original,
-    "Game_Title_Clean"
-] = "DmC: Devil May Cry (2013)"
+df.loc[masque_dmc_original, "Game_Title_Clean"] = 'DmC: Devil May Cry (2013)'
 
 
 # ------------------------------------------------------------
@@ -1645,13 +1402,10 @@ masque_dmc_definitive = (
     & (df["Year"] == 2015)
 )
 
-df.loc[
-    masque_dmc_definitive,
-    "Game_Title_Clean"
-] = "DmC: Devil May Cry Definitive Edition (2015)"
+df.loc[masque_dmc_definitive, "Game_Title_Clean"] = 'DmC: Devil May Cry Definitive Edition (2015)'
 
 # ============================================================
-# 7.X - ICE HOCKEY : ATARI 2600 ET NES
+# 7.X.22 - ICE HOCKEY : ATARI 2600 ET NES
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1665,10 +1419,7 @@ masque_ice_hockey_2600 = (
     & (df["Year"] == 1980)
 )
 
-df.loc[
-    masque_ice_hockey_2600,
-    "Game_Title_Clean"
-] = "Ice Hockey (Atari 2600 - 1980)"
+df.loc[masque_ice_hockey_2600, "Game_Title_Clean"] = 'Ice Hockey (Atari 2600 - 1980)'
 
 
 # ------------------------------------------------------------
@@ -1682,13 +1433,10 @@ masque_ice_hockey_nes = (
     & (df["Year"] == 1988)
 )
 
-df.loc[
-    masque_ice_hockey_nes,
-    "Game_Title_Clean"
-] = "Ice Hockey (NES - 1988)"
+df.loc[masque_ice_hockey_nes, "Game_Title_Clean"] = 'Ice Hockey (NES - 1988)'
 
 # ============================================================
-# 7.X - FINAL FANTASY II : NUMEROTATION ET REEDITION
+# 7.X.23 - FINAL FANTASY II : NUMEROTATION ET REEDITION
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1702,10 +1450,7 @@ masque_ff2_nes = (
     & (df["Year"] == 1988)
 )
 
-df.loc[
-    masque_ff2_nes,
-    "Game_Title_Clean"
-] = "Final Fantasy II (1988)"
+df.loc[masque_ff2_nes, "Game_Title_Clean"] = 'Final Fantasy II (1988)'
 
 
 # ------------------------------------------------------------
@@ -1720,10 +1465,7 @@ masque_ff4_snes = (
     & (df["Year"] == 1991)
 )
 
-df.loc[
-    masque_ff4_snes,
-    "Game_Title_Clean"
-] = "Final Fantasy IV (1991)"
+df.loc[masque_ff4_snes, "Game_Title_Clean"] = 'Final Fantasy IV (1991)'
 
 
 # ------------------------------------------------------------
@@ -1737,13 +1479,10 @@ masque_ff2_ws = (
     & (df["Year"] == 2001)
 )
 
-df.loc[
-    masque_ff2_ws,
-    "Game_Title_Clean"
-] = "Final Fantasy II (WonderSwan - 2001)"
+df.loc[masque_ff2_ws, "Game_Title_Clean"] = 'Final Fantasy II (WonderSwan - 2001)'
 
 # ============================================================
-# 7.X - FINAL FANTASY IV : ORIGINAL ET REMAKE 3D
+# 7.X.24 - FINAL FANTASY IV : ORIGINAL ET REMAKE 3D
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1769,10 +1508,7 @@ masque_ff4_original = (
     )
 )
 
-df.loc[
-    masque_ff4_original,
-    "Game_Title_Clean"
-] = "Final Fantasy IV (1991)"
+df.loc[masque_ff4_original, "Game_Title_Clean"] = 'Final Fantasy IV (1991)'
 
 
 # ------------------------------------------------------------
@@ -1788,13 +1524,10 @@ masque_ff4_ds = (
     & (df["Year"] == 2007)
 )
 
-df.loc[
-    masque_ff4_ds,
-    "Game_Title_Clean"
-] = "Final Fantasy IV (Remake 3D - 2007)"
+df.loc[masque_ff4_ds, "Game_Title_Clean"] = 'Final Fantasy IV (Remake 3D - 2007)'
 
 # ============================================================
-# 7.X - FIFA STREET : EPISODES 2005 ET 2012
+# 7.X.25 - FIFA STREET : EPISODES 2005 ET 2012
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1809,10 +1542,7 @@ masque_fifa_street_2005 = (
     & (df["Year"] == 2005)
 )
 
-df.loc[
-    masque_fifa_street_2005,
-    "Game_Title_Clean"
-] = "FIFA Street (2005)"
+df.loc[masque_fifa_street_2005, "Game_Title_Clean"] = 'FIFA Street (2005)'
 
 
 # ------------------------------------------------------------
@@ -1827,13 +1557,10 @@ masque_fifa_street_2012 = (
     & (df["Year"] == 2012)
 )
 
-df.loc[
-    masque_fifa_street_2012,
-    "Game_Title_Clean"
-] = "FIFA Street (2012)"
+df.loc[masque_fifa_street_2012, "Game_Title_Clean"] = 'FIFA Street (2012)'
 
 # ============================================================
-# 7.X - GRAND THEFT AUTO : 1997 ET GBA 2004
+# 7.X.26 - GRAND THEFT AUTO : 1997 ET GBA 2004
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1848,10 +1575,7 @@ masque_gta_1997 = (
     & (df["Year"] == 1997)
 )
 
-df.loc[
-    masque_gta_1997,
-    "Game_Title_Clean"
-] = "Grand Theft Auto (1997)"
+df.loc[masque_gta_1997, "Game_Title_Clean"] = 'Grand Theft Auto (1997)'
 
 
 # ------------------------------------------------------------
@@ -1867,13 +1591,10 @@ masque_gta_gba = (
     & (df["Year"] == 2004)
 )
 
-df.loc[
-    masque_gta_gba,
-    "Game_Title_Clean"
-] = "Grand Theft Auto Advance (2004)"
+df.loc[masque_gta_gba, "Game_Title_Clean"] = 'Grand Theft Auto Advance (2004)'
 
 # ============================================================
-# 7.X - RIDGE RACER : EPISODES PS, PSP ET PSV
+# 7.X.27 - RIDGE RACER : EPISODES PS, PSP ET PSV
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1888,10 +1609,7 @@ masque_ridge_ps = (
     & (df["Year"] == 1994)
 )
 
-df.loc[
-    masque_ridge_ps,
-    "Game_Title_Clean"
-] = "Ridge Racer (1994)"
+df.loc[masque_ridge_ps, "Game_Title_Clean"] = 'Ridge Racer (1994)'
 
 
 # ------------------------------------------------------------
@@ -1907,10 +1625,7 @@ masque_ridge_psp = (
     & (df["Year"] == 2004)
 )
 
-df.loc[
-    masque_ridge_psp,
-    "Game_Title_Clean"
-] = "Ridge Racer (PSP - 2004)"
+df.loc[masque_ridge_psp, "Game_Title_Clean"] = 'Ridge Racer (PSP - 2004)'
 
 
 # ------------------------------------------------------------
@@ -1925,13 +1640,10 @@ masque_ridge_psv = (
     & (df["Year"] == 2011)
 )
 
-df.loc[
-    masque_ridge_psv,
-    "Game_Title_Clean"
-] = "Ridge Racer (PSV - 2011)"
+df.loc[masque_ridge_psv, "Game_Title_Clean"] = 'Ridge Racer (PSV - 2011)'
 
 # ============================================================
-# 7.X - DRAGON QUEST MONSTERS 2 : ORIGINAL ET REMAKE 3D
+# 7.X.28 - DRAGON QUEST MONSTERS 2 : ORIGINAL ET REMAKE 3D
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1947,10 +1659,7 @@ masque_dqm2_original = (
     & (df["Year"] == 2001)
 )
 
-df.loc[
-    masque_dqm2_original,
-    "Game_Title_Clean"
-] = "Dragon Quest Monsters 2 (2001)"
+df.loc[masque_dqm2_original, "Game_Title_Clean"] = 'Dragon Quest Monsters 2 (2001)'
 
 
 # ------------------------------------------------------------
@@ -1966,13 +1675,10 @@ masque_dqm2_remake = (
     & (df["Year"] == 2014)
 )
 
-df.loc[
-    masque_dqm2_remake,
-    "Game_Title_Clean"
-] = "Dragon Quest Monsters 2 (Remake 3D - 2014)"
+df.loc[masque_dqm2_remake, "Game_Title_Clean"] = 'Dragon Quest Monsters 2 (Remake 3D - 2014)'
 
 # ============================================================
-# 7.X - PRO YAKYUU FAMILY STADIUM : NES ET WII
+# 7.X.29 - PRO YAKYUU FAMILY STADIUM : NES ET WII
 # ============================================================
 
 # ------------------------------------------------------------
@@ -1987,10 +1693,7 @@ masque_family_stadium_nes = (
     & (df["Year"] == 1986)
 )
 
-df.loc[
-    masque_family_stadium_nes,
-    "Game_Title_Clean"
-] = "Pro Yakyuu Family Stadium (1986)"
+df.loc[masque_family_stadium_nes, "Game_Title_Clean"] = 'Pro Yakyuu Family Stadium (1986)'
 
 
 # ------------------------------------------------------------
@@ -2006,13 +1709,10 @@ masque_family_stadium_wii = (
     & (df["Year"] == 2008)
 )
 
-df.loc[
-    masque_family_stadium_wii,
-    "Game_Title_Clean"
-] = "Pro Yakyuu Family Stadium (Wii - 2008)"
+df.loc[masque_family_stadium_wii, "Game_Title_Clean"] = 'Pro Yakyuu Family Stadium (Wii - 2008)'
 
 # ============================================================
-# 7.X - JEOPARDY! : DIFFERENTES EDITIONS
+# 7.X.30 - JEOPARDY! : DIFFERENTES EDITIONS
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2037,10 +1737,7 @@ masque_jeopardy_1997 = (
     )
 )
 
-df.loc[
-    masque_jeopardy_1997,
-    "Game_Title_Clean"
-] = "Jeopardy! (1997-1998)"
+df.loc[masque_jeopardy_1997, "Game_Title_Clean"] = 'Jeopardy! (1997-1998)'
 
 
 # ------------------------------------------------------------
@@ -2055,10 +1752,7 @@ masque_jeopardy_ps2 = (
     & (df["Year"] == 2003)
 )
 
-df.loc[
-    masque_jeopardy_ps2,
-    "Game_Title_Clean"
-] = "Jeopardy! (PS2 - 2003)"
+df.loc[masque_jeopardy_ps2, "Game_Title_Clean"] = 'Jeopardy! (PS2 - 2003)'
 
 
 # ------------------------------------------------------------
@@ -2074,13 +1768,10 @@ masque_jeopardy_2010 = (
     & (df["Year"] == 2010)
 )
 
-df.loc[
-    masque_jeopardy_2010,
-    "Game_Title_Clean"
-] = "Jeopardy! (2010)"
+df.loc[masque_jeopardy_2010, "Game_Title_Clean"] = 'Jeopardy! (2010)'
 
 # ============================================================
-# 7.X - THE INCREDIBLE HULK : 2003 ET 2008
+# 7.X.31 - THE INCREDIBLE HULK : 2003 ET 2008
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2096,10 +1787,7 @@ masque_hulk_gba_2003 = (
     & (df["Year"] == 2003)
 )
 
-df.loc[
-    masque_hulk_gba_2003,
-    "Game_Title_Clean"
-] = "The Incredible Hulk (GBA - 2003)"
+df.loc[masque_hulk_gba_2003, "Game_Title_Clean"] = 'The Incredible Hulk (GBA - 2003)'
 
 
 # ------------------------------------------------------------
@@ -2115,13 +1803,10 @@ masque_hulk_2008 = (
     & (df["Year"] == 2008)
 )
 
-df.loc[
-    masque_hulk_2008,
-    "Game_Title_Clean"
-] = "The Incredible Hulk (2008)"
+df.loc[masque_hulk_2008, "Game_Title_Clean"] = 'The Incredible Hulk (2008)'
 
 # ============================================================
-# 7.X - CENTIPEDE : VERSION ORIGINALE ET REINTERPRETATION
+# 7.X.32 - CENTIPEDE : VERSION ORIGINALE ET REINTERPRETATION
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2137,10 +1822,7 @@ masque_centipede_1981 = (
     & (df["Year"] == 1981)
 )
 
-df.loc[
-    masque_centipede_1981,
-    "Game_Title_Clean"
-] = "Centipede (1981)"
+df.loc[masque_centipede_1981, "Game_Title_Clean"] = 'Centipede (1981)'
 
 
 # ------------------------------------------------------------
@@ -2156,13 +1838,10 @@ masque_centipede_1998 = (
     & (df["Year"] == 1998)
 )
 
-df.loc[
-    masque_centipede_1998,
-    "Game_Title_Clean"
-] = "Centipede (1998)"
+df.loc[masque_centipede_1998, "Game_Title_Clean"] = 'Centipede (1998)'
 
 # ============================================================
-# 7.X - CASTLEVANIA : NES 1986 ET N64 1999
+# 7.X.33 - CASTLEVANIA : NES 1986 ET N64 1999
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2178,10 +1857,7 @@ masque_castlevania_1986 = (
     & (df["Year"] == 1986)
 )
 
-df.loc[
-    masque_castlevania_1986,
-    "Game_Title_Clean"
-] = "Castlevania (1986)"
+df.loc[masque_castlevania_1986, "Game_Title_Clean"] = 'Castlevania (1986)'
 
 
 # ------------------------------------------------------------
@@ -2197,13 +1873,10 @@ masque_castlevania_1999 = (
     & (df["Year"] == 1999)
 )
 
-df.loc[
-    masque_castlevania_1999,
-    "Game_Title_Clean"
-] = "Castlevania (N64 - 1999)"
+df.loc[masque_castlevania_1999, "Game_Title_Clean"] = 'Castlevania (N64 - 1999)'
 
 # ============================================================
-# 7.X - APE ESCAPE : PLAYSTATION 1999 ET PS3 2010
+# 7.X.34 - APE ESCAPE : PLAYSTATION 1999 ET PS3 2010
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2219,10 +1892,7 @@ masque_ape_escape_1999 = (
     & (df["Year"] == 1999)
 )
 
-df.loc[
-    masque_ape_escape_1999,
-    "Game_Title_Clean"
-] = "Ape Escape (1999)"
+df.loc[masque_ape_escape_1999, "Game_Title_Clean"] = 'Ape Escape (1999)'
 
 
 # ------------------------------------------------------------
@@ -2238,13 +1908,10 @@ masque_ape_escape_2010 = (
     & (df["Year"] == 2010)
 )
 
-df.loc[
-    masque_ape_escape_2010,
-    "Game_Title_Clean"
-] = "Ape Escape (PS3 - 2010)"
+df.loc[masque_ape_escape_2010, "Game_Title_Clean"] = 'Ape Escape (PS3 - 2010)'
 
 # ============================================================
-# 7.X - DEFENDER : JEU ORIGINAL ET REINTERPRETATION 3D
+# 7.X.35 - DEFENDER : JEU ORIGINAL ET REINTERPRETATION 3D
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2261,10 +1928,7 @@ masque_defender_1980 = (
     & (df["Year"] == 1980)
 )
 
-df.loc[
-    masque_defender_1980,
-    "Game_Title_Clean"
-] = "Defender (1980)"
+df.loc[masque_defender_1980, "Game_Title_Clean"] = 'Defender (1980)'
 
 
 # ------------------------------------------------------------
@@ -2281,13 +1945,10 @@ masque_defender_2002 = (
     & (df["Year"] == 2002)
 )
 
-df.loc[
-    masque_defender_2002,
-    "Game_Title_Clean"
-] = "Defender (2002)"
+df.loc[masque_defender_2002, "Game_Title_Clean"] = 'Defender (2002)'
 
 # ============================================================
-# 7.X - TALES OF DESTINY : ORIGINAL ET REMAKE
+# 7.X.36 - TALES OF DESTINY : ORIGINAL ET REMAKE
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2303,10 +1964,7 @@ masque_tales_destiny_1997 = (
     & (df["Year"] == 1997)
 )
 
-df.loc[
-    masque_tales_destiny_1997,
-    "Game_Title_Clean"
-] = "Tales of Destiny (1997)"
+df.loc[masque_tales_destiny_1997, "Game_Title_Clean"] = 'Tales of Destiny (1997)'
 
 
 # ------------------------------------------------------------
@@ -2323,13 +1981,10 @@ masque_tales_destiny_2006 = (
     & (df["Year"] == 2006)
 )
 
-df.loc[
-    masque_tales_destiny_2006,
-    "Game_Title_Clean"
-] = "Tales of Destiny (Remake 2006)"
+df.loc[masque_tales_destiny_2006, "Game_Title_Clean"] = 'Tales of Destiny (Remake 2006)'
 
 # ============================================================
-# 7.X - ROMANCING SAGA : ORIGINAL ET REMAKE
+# 7.X.37 - ROMANCING SAGA : ORIGINAL ET REMAKE
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2345,10 +2000,7 @@ masque_romancing_saga_1992 = (
     & (df["Year"] == 1992)
 )
 
-df.loc[
-    masque_romancing_saga_1992,
-    "Game_Title_Clean"
-] = "Romancing SaGa (1992)"
+df.loc[masque_romancing_saga_1992, "Game_Title_Clean"] = 'Romancing SaGa (1992)'
 
 
 # ------------------------------------------------------------
@@ -2365,13 +2017,10 @@ masque_romancing_saga_2005 = (
     & (df["Year"] == 2005)
 )
 
-df.loc[
-    masque_romancing_saga_2005,
-    "Game_Title_Clean"
-] = "Romancing SaGa (Minstrel Song - 2005)"
+df.loc[masque_romancing_saga_2005, "Game_Title_Clean"] = 'Romancing SaGa (Minstrel Song - 2005)'
 
 # ============================================================
-# 7.X - WARHAWK : JEU ORIGINAL ET REINTERPRETATION
+# 7.X.38 - WARHAWK : JEU ORIGINAL ET REINTERPRETATION
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2387,10 +2036,7 @@ masque_warhawk_1995 = (
     & (df["Year"] == 1995)
 )
 
-df.loc[
-    masque_warhawk_1995,
-    "Game_Title_Clean"
-] = "Warhawk (1995)"
+df.loc[masque_warhawk_1995, "Game_Title_Clean"] = 'Warhawk (1995)'
 
 
 # ------------------------------------------------------------
@@ -2407,13 +2053,10 @@ masque_warhawk_2007 = (
     & (df["Year"] == 2007)
 )
 
-df.loc[
-    masque_warhawk_2007,
-    "Game_Title_Clean"
-] = "Warhawk (2007)"
+df.loc[masque_warhawk_2007, "Game_Title_Clean"] = 'Warhawk (2007)'
 
 # ============================================================
-# 7.X - AREA 51 : JEU ORIGINAL ET FPS DE 2005
+# 7.X.39 - AREA 51 : JEU ORIGINAL ET FPS DE 2005
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2429,10 +2072,7 @@ masque_area51_1996 = (
     & (df["Year"] == 1996)
 )
 
-df.loc[
-    masque_area51_1996,
-    "Game_Title_Clean"
-] = "Area 51 (1996)"
+df.loc[masque_area51_1996, "Game_Title_Clean"] = 'Area 51 (1996)'
 
 
 # ------------------------------------------------------------
@@ -2449,13 +2089,10 @@ masque_area51_2005 = (
     & (df["Year"] == 2005)
 )
 
-df.loc[
-    masque_area51_2005,
-    "Game_Title_Clean"
-] = "Area 51 (2005)"
+df.loc[masque_area51_2005, "Game_Title_Clean"] = 'Area 51 (2005)'
 
 # ============================================================
-# 7.X - Q*BERT : JEU ORIGINAL ET REINTERPRETATION DE 1999
+# 7.X.40 - Q*BERT : JEU ORIGINAL ET REINTERPRETATION DE 1999
 # ============================================================
 
 # ------------------------------------------------------------
@@ -2471,10 +2108,7 @@ masque_qbert_1982 = (
     & (df["Year"] == 1982)
 )
 
-df.loc[
-    masque_qbert_1982,
-    "Game_Title_Clean"
-] = "Q*bert (1982)"
+df.loc[masque_qbert_1982, "Game_Title_Clean"] = 'Q*bert (1982)'
 
 
 # ------------------------------------------------------------
@@ -2491,13 +2125,10 @@ masque_qbert_1999 = (
     & (df["Year"] == 1999)
 )
 
-df.loc[
-    masque_qbert_1999,
-    "Game_Title_Clean"
-] = "Q*bert (1999)"
+df.loc[masque_qbert_1999, "Game_Title_Clean"] = 'Q*bert (1999)'
 
 # ============================================================
-# 7.X - BOMBERMAN : SEPARATION DES JEUX DISTINCTS
+# 7.X.41 - BOMBERMAN : SEPARATION DES JEUX DISTINCTS
 # ============================================================
 
 # Plusieurs jeux portent exactement le nom "Bomberman".
@@ -2519,10 +2150,7 @@ masque_bomberman_1985 = (
     & (df["Year"] == 1985)
 )
 
-df.loc[
-    masque_bomberman_1985,
-    "Game_Title_Clean"
-] = "Bomberman (1985)"
+df.loc[masque_bomberman_1985, "Game_Title_Clean"] = 'Bomberman (1985)'
 
 
 # ------------------------------------------------------------
@@ -2538,10 +2166,7 @@ masque_bomberman_2005 = (
     & (df["Year"] == 2005)
 )
 
-df.loc[
-    masque_bomberman_2005,
-    "Game_Title_Clean"
-] = "Bomberman (DS - 2005)"
+df.loc[masque_bomberman_2005, "Game_Title_Clean"] = 'Bomberman (DS - 2005)'
 
 
 # ------------------------------------------------------------
@@ -2557,10 +2182,7 @@ masque_bomberman_2006 = (
     & (df["Year"] == 2006)
 )
 
-df.loc[
-    masque_bomberman_2006,
-    "Game_Title_Clean"
-] = "Bomberman (PSP - 2006)"
+df.loc[masque_bomberman_2006, "Game_Title_Clean"] = 'Bomberman (PSP - 2006)'
 
 
 # ------------------------------------------------------------
@@ -2575,14 +2197,11 @@ masque_bomberman_2008 = (
     & (df["Year"] == 2008)
 )
 
-df.loc[
-    masque_bomberman_2008,
-    "Game_Title_Clean"
-] = "Bomberman (Wii - 2008)"
+df.loc[masque_bomberman_2008, "Game_Title_Clean"] = 'Bomberman (Wii - 2008)'
 
 
 # ============================================================
-# 7.X - FINAL FANTASY : SEPARATION DES VERSIONS
+# 7.X.42 - FINAL FANTASY : SEPARATION DES VERSIONS
 # ============================================================
 
 # Final Fantasy NES (1987) est le jeu original.
@@ -2602,10 +2221,7 @@ masque_ff_nes = (
     & (df["Year"] == 1987)
 )
 
-df.loc[
-    masque_ff_nes,
-    "Game_Title_Clean"
-] = "Final Fantasy (1987)"
+df.loc[masque_ff_nes, "Game_Title_Clean"] = 'Final Fantasy (1987)'
 
 
 # ------------------------------------------------------------
@@ -2618,14 +2234,11 @@ masque_ff_ws = (
     & (df["Year"] == 2000)
 )
 
-df.loc[
-    masque_ff_ws,
-    "Game_Title_Clean"
-] = "Final Fantasy (WonderSwan 2000)"
+df.loc[masque_ff_ws, "Game_Title_Clean"] = 'Final Fantasy (WonderSwan 2000)'
 
 
 # ============================================================
-# 7.X - TALES OF PHANTASIA : SEPARATION DES VERSIONS
+# 7.X.43 - TALES OF PHANTASIA : SEPARATION DES VERSIONS
 # ============================================================
 
 # Trois editions distinctes du meme jeu :
@@ -2648,10 +2261,7 @@ masque_tales_snes = (
     & (df["Year"] == 1995)
 )
 
-df.loc[
-    masque_tales_snes,
-    "Game_Title_Clean"
-] = "Tales of Phantasia (1995)"
+df.loc[masque_tales_snes, "Game_Title_Clean"] = 'Tales of Phantasia (1995)'
 
 
 # ------------------------------------------------------------
@@ -2664,10 +2274,7 @@ masque_tales_ps = (
     & (df["Year"] == 1998)
 )
 
-df.loc[
-    masque_tales_ps,
-    "Game_Title_Clean"
-] = "Tales of Phantasia (PS 1998)"
+df.loc[masque_tales_ps, "Game_Title_Clean"] = 'Tales of Phantasia (PS 1998)'
 
 
 # ------------------------------------------------------------
@@ -2680,14 +2287,11 @@ masque_tales_gba = (
     & (df["Year"] == 2003)
 )
 
-df.loc[
-    masque_tales_gba,
-    "Game_Title_Clean"
-] = "Tales of Phantasia (GBA 2003)"
+df.loc[masque_tales_gba, "Game_Title_Clean"] = 'Tales of Phantasia (GBA 2003)'
 
 
 # ============================================================
-# 7.X - SUPER GHOULS 'N GHOSTS : SEPARATION DES VERSIONS
+# 7.X.44 - SUPER GHOULS 'N GHOSTS : SEPARATION DES VERSIONS
 # ============================================================
 
 # Deux editions distinctes :
@@ -2713,10 +2317,7 @@ masque_ghouls_snes = (
 
 # Attribuer un titre nettoye specifique.
 
-df.loc[
-    masque_ghouls_snes,
-    "Game_Title_Clean"
-] = "Super Ghouls 'n Ghosts (1991)"
+df.loc[masque_ghouls_snes, "Game_Title_Clean"] = "Super Ghouls 'n Ghosts (1991)"
 
 
 # ------------------------------------------------------------
@@ -2733,14 +2334,11 @@ masque_ghouls_gba = (
 
 # Distinguer l'adaptation enrichie de l'original.
 
-df.loc[
-    masque_ghouls_gba,
-    "Game_Title_Clean"
-] = "Super Ghouls 'n Ghosts (GBA 2002)"
+df.loc[masque_ghouls_gba, "Game_Title_Clean"] = "Super Ghouls 'n Ghosts (GBA 2002)"
 
 
 # ============================================================
-# 7.X - NEED FOR SPEED: PORSCHE UNLEASHED
+# 7.X.45 - NEED FOR SPEED: PORSCHE UNLEASHED
 # SEPARATION DES VERSIONS
 # ============================================================
 
@@ -2767,10 +2365,7 @@ masque_nfs_ps = (
 
 # Attribuer un titre nettoye specifique.
 
-df.loc[
-    masque_nfs_ps,
-    "Game_Title_Clean"
-] = "Need for Speed: Porsche Unleashed (PS 1999)"
+df.loc[masque_nfs_ps, "Game_Title_Clean"] = 'Need for Speed: Porsche Unleashed (PS 1999)'
 
 
 # ------------------------------------------------------------
@@ -2787,14 +2382,11 @@ masque_nfs_gba = (
 
 # Distinguer l'adaptation portable de la version PS.
 
-df.loc[
-    masque_nfs_gba,
-    "Game_Title_Clean"
-] = "Need for Speed: Porsche Unleashed (GBA 2004)"
+df.loc[masque_nfs_gba, "Game_Title_Clean"] = 'Need for Speed: Porsche Unleashed (GBA 2004)'
 
 
 # ============================================================
-# 7.X - TACTICS OGRE : SEPARATION DES VERSIONS
+# 7.X.46 - TACTICS OGRE : SEPARATION DES VERSIONS
 # ============================================================
 
 # Deux editions distinctes :
@@ -2821,10 +2413,7 @@ masque_tactics_snes = (
 
 # Attribuer un titre nettoye specifique.
 
-df.loc[
-    masque_tactics_snes,
-    "Game_Title_Clean"
-] = "Tactics Ogre: Let Us Cling Together (1995)"
+df.loc[masque_tactics_snes, "Game_Title_Clean"] = 'Tactics Ogre: Let Us Cling Together (1995)'
 
 
 # ------------------------------------------------------------
@@ -2841,14 +2430,11 @@ masque_tactics_psp = (
 
 # Distinguer le remake de la version originale.
 
-df.loc[
-    masque_tactics_psp,
-    "Game_Title_Clean"
-] = "Tactics Ogre: Let Us Cling Together (PSP 2010)"
+df.loc[masque_tactics_psp, "Game_Title_Clean"] = 'Tactics Ogre: Let Us Cling Together (PSP 2010)'
 
 
 # ============================================================
-# 7.X - SHINOBI : SEPARATION DES JEUX DISTINCTS
+# 7.X.47 - SHINOBI : SEPARATION DES JEUX DISTINCTS
 # ============================================================
 
 # Deux jeux differents portent le meme nom :
@@ -2876,10 +2462,7 @@ masque_shinobi_ps2 = (
 
 # Attribuer un titre nettoye specifique.
 
-df.loc[
-    masque_shinobi_ps2,
-    "Game_Title_Clean"
-] = "Shinobi (PS2 2002)"
+df.loc[masque_shinobi_ps2, "Game_Title_Clean"] = 'Shinobi (PS2 2002)'
 
 
 # ------------------------------------------------------------
@@ -2896,10 +2479,7 @@ masque_shinobi_3ds = (
 
 # Distinguer le jeu 3DS du jeu PS2.
 
-df.loc[
-    masque_shinobi_3ds,
-    "Game_Title_Clean"
-] = "Shinobi (3DS 2011)"
+df.loc[masque_shinobi_3ds, "Game_Title_Clean"] = 'Shinobi (3DS 2011)'
 
 
 
@@ -3375,10 +2955,7 @@ masque_resident_original = (
     )
 )
 
-df.loc[
-    masque_resident_original,
-    "Game_Title_Clean"
-] = "Resident Evil (1996)"
+df.loc[masque_resident_original, "Game_Title_Clean"] = 'Resident Evil (1996)'
 
 
 # Édition Director's Cut :
@@ -3432,10 +3009,7 @@ masque_ffvi_snes = (
     & (df["Year"] == 1994)
 )
 
-df.loc[
-    masque_ffvi_snes,
-    "Game_Title_Clean"
-] = "Final Fantasy VI (1994)"
+df.loc[masque_ffvi_snes, "Game_Title_Clean"] = 'Final Fantasy VI (1994)'
 
 
 # ------------------------------------------------------------
@@ -3449,10 +3023,7 @@ masque_ffvi_ps = (
     & (df["Year"] == 1999)
 )
 
-df.loc[
-    masque_ffvi_ps,
-    "Game_Title_Clean"
-] = "Final Fantasy VI (PS 1999)"
+df.loc[masque_ffvi_ps, "Game_Title_Clean"] = 'Final Fantasy VI (PS 1999)'
 
 
 # ------------------------------------------------------------
@@ -3498,10 +3069,7 @@ masque_tod2_ps2 = (
     & (df["Year"] == 2002)
 )
 
-df.loc[
-    masque_tod2_ps2,
-    "Game_Title_Clean"
-] = "Tales of Destiny 2 (2002)"
+df.loc[masque_tod2_ps2, "Game_Title_Clean"] = 'Tales of Destiny 2 (2002)'
 
 
 # ------------------------------------------------------------
@@ -3515,10 +3083,7 @@ masque_tod2_psp = (
     & (df["Year"] == 2007)
 )
 
-df.loc[
-    masque_tod2_psp,
-    "Game_Title_Clean"
-] = "Tales of Destiny 2 (PSP 2007)"
+df.loc[masque_tod2_psp, "Game_Title_Clean"] = 'Tales of Destiny 2 (PSP 2007)'
 
 
 # ------------------------------------------------------------
@@ -3567,10 +3132,7 @@ masque_yakuza_ps2 = (
     & (df["Year"] == 2005)
 )
 
-df.loc[
-    masque_yakuza_ps2,
-    "Game_Title_Clean"
-] = "Yakuza (2005)"
+df.loc[masque_yakuza_ps2, "Game_Title_Clean"] = 'Yakuza (2005)'
 
 
 # ------------------------------------------------------------
@@ -3584,10 +3146,7 @@ masque_yakuza_ps3 = (
     & (df["Year"] == 2012)
 )
 
-df.loc[
-    masque_yakuza_ps3,
-    "Game_Title_Clean"
-] = "Yakuza (PS3 HD 2012)"
+df.loc[masque_yakuza_ps3, "Game_Title_Clean"] = 'Yakuza (PS3 HD 2012)'
 
 
 # ------------------------------------------------------------
@@ -9856,10 +9415,6 @@ pd.testing.assert_series_equal(
 assert abs(
     df["Global_Sales"].sum() - df_source["Global_Sales"].sum()
 ) < 0.000001, "Le total des ventes a changé !"
-
-# ------------------------------------------------------------
-# 15.4. CONTRÔLE DES DOUBLONS POTENTIELS
-# ------------------------------------------------------------
 
 # ------------------------------------------------------------
 # 15.4. CONTRÔLE DES DOUBLONS POTENTIELS
